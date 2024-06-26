@@ -1,0 +1,134 @@
+<%- include("navbar.ejs") %>
+    <link rel="stylesheet" href="user/style/Faculty.css" />
+    <link rel="stylesheet" href="user/style/index.css" />
+
+    <!-- slide1 begins  -->
+    <div class='container-fluid Faculty1'>
+        <div class='row'>
+            <div class='col-md-12'>
+                <img src="user/uploads/FacultyBg.jpg" alt="" />
+
+                <div class='Faculty1-heading'>
+                    <h1>FACULTY & STAFF</h1>
+                    <a href='#'>
+                        <button>Home</button>
+                    </a>
+                    <span> &gt; </span>
+                    <a href="#">
+                        <button>About</button>
+                    </a>
+                    <span> &gt; </span>
+
+                    <a href="#">
+                        <button style="color:white;">Faculty</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- slide2 begins -->
+    <div class='container-fluid Faculty2'>
+        <div class='row'>
+            <div class='col-md-12 faculty2-buttons'>
+                <h1>Faculty Members</h1>
+                <button style= "background-color:white; border: 2px solid #fac311">All Staff</button>
+                <button>LKG, UKG</button>
+                <button>1-4</button>
+                <button>5-10</button>
+            </div>
+        </div>
+
+        <div class='row faculty-staff1'>
+            <div class='col-md-3'>
+                <div class="card faculty-card faculty-card1" style="width:17rem; height:380px; margin-top:25px; margin-left:15px">
+                    
+                    <img src='/uploads/<%=faculty_detail[0].faculty_photo%>' style="width:250px; height:250px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size:30px; margin:10px; margin-left:40px"> <%= faculty_detail[0].faculty_name %> </h5>
+                        <p class="card-text" style="font-size:12px"><%= faculty_detail[0].faculty_Designation %></p>
+                        <a href="#" class="btn btn-warning" style="margin-left:60px">Read Bio</a>
+                    </div>
+                </div>
+            </div>
+            <div class='col-md-3'>
+                <div class="card faculty-card" style="width:17rem; height:380px; margin-top:25px">
+                    <img src='/uploads/<%=faculty_detail[1].faculty_photo%>' style="width:250px; height:250px" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size:30px; margin:10px; margin-left:15px"><%= faculty_detail[1].faculty_name %></h5>
+                        <p class="card-text" style="font-size:12px"><%= faculty_detail[1].faculty_Designation %></p>
+                        <a href="#" class="btn btn-warning" style="margin-left:50px">Read Bio</a>
+                    </div>
+                </div>
+            </div>
+            <div class='col-md-3'>
+                <div class="card faculty-card faculty-card3" style="width:17rem; height:380px;
+                    margin-top:25px">
+                    <img src='/uploads/<%=faculty_detail[2].faculty_photo%>' style="width:250px; height:270px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size:30px; margin:10px; padding-left:30px"><%= faculty_detail[2].faculty_name %></h5>
+                        <p class="card-text" style="font-size:14px"><%= faculty_detail[2].faculty_Designation %></p>
+                        <a href="#" class="btn btn-warning" style="margin-left:60px">Read Bio</a>
+                    </div>
+                </div>
+            </div>
+            <div class='col-md-3'>
+                <div class="card faculty-card" style="width:17rem; height:380px; margin-top:25px">
+                    <img src='/uploads/<%=faculty_detail[3].faculty_photo%>' style="width:250px; height:250px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size:30px; margin:10px; margin-left:5px"><%= faculty_detail[3].faculty_name %></h5>
+                        <p class="card-text" style="font-size:14px"><%= faculty_detail[3].faculty_Designation %></p>
+                        <a href="#" class="btn btn-warning" style="margin-left:45px">Read Bio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class='row faculty-staff2'>
+            <div class='col-md-3'>
+                <div class="card faculty-card" style="width:17rem; height:380px; margin-top:25px;
+                    margin-left:15px">
+                    <img src='/uploads/<%=faculty_detail[4].faculty_photo%>' style="width:250px; height:250px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size:30px; margin:10px; margin-left:30px"><%= faculty_detail[4].faculty_name %></h5>
+                        <p class="card-text" style="font-size:14px"><%= faculty_detail[4].faculty_Designation %></p>
+                        <a href="#" class="btn btn-warning" style="margin-left:55px">Read Bio</a>
+                    </div>
+                </div>
+            </div>
+            <div class='col-md-3'>
+                <div class="card faculty-card" style="width:17rem; height:380px; margin-top:25px">
+                    <img src='/uploads/<%=faculty_detail[5].faculty_photo%>' style="width:250px; height:250px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size:30px; margin:10px; margin-left:20px"><%= faculty_detail[5].faculty_name %></h5>
+                        <p class="card-text" style="font-size:14px"><%= faculty_detail[5].faculty_Designation %></p>
+                        <a href="#" class="btn btn-warning" style="margin-left:55px">Read Bio</a>
+                    </div>
+                </div>
+            </div>
+            <div class='col-md-3'>
+                <div class="card faculty-card faculty-card5" style="width: 17rem; height:380px;
+                    margin-top:25px">
+                    <img src='/uploads/<%=faculty_detail[6].faculty_photo%>' style="width:250px; height:250px" class="card-img-top" alt="..." />
+                    <div class="card-body ">
+                        <h5 class="card-title" style="font-size:30px; margin:10px; margin-left:5px"><%= faculty_detail[6].faculty_name %></h5>
+                        <p class="card-text" style="font-size:14px"><%= faculty_detail[6].faculty_Designation %></p>
+                        <a href="#" class="btn btn-warning" style="margin-left:45px">Read Bio</a>
+                    </div>
+                </div>
+            </div>
+            <div class='col-md-3'>
+                <div class="card faculty-card" style="width:17rem; height:380px; margin-top:25px">
+                    <img src='/uploads/<%=faculty_detail[7].faculty_photo%>' style="width:250px; height:250px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size:30px; margin:10px; margin-left:40px"><%= faculty_detail[7].faculty_name %></h5>
+                        <p class="card-text" style="font-size:14px"><%= faculty_detail[7].faculty_Designation %></p>
+                        <a href="#" class="btn btn-warning" style="margin-left:60px">Read Bio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <%- include("footer.ejs") %>

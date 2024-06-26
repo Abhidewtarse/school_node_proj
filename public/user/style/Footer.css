@@ -1,0 +1,45 @@
+.footer-06 {
+    height: 440px;
+    background-color: black;
+    color: white;
+}
+
+.form-group input {
+    width: 500px;
+    margin-right: 50px;
+}
+
+.form-group button {
+    width: 100px;
+}
+
+.footer-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.footer-slide ul li {
+    margin-top: 10px;
+}
+
+.footer-slide ul li ion-icon {
+
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.copyright {
+    height: 80px;
+    margin-top: 40px;
+    padding-top: 40px;
+    letter-spacing: 1px;
+}
+
+@media (max-width:480px) {
+    .footer-06 {
+        height: 1050px;
+    }
+}

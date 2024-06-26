@@ -1,0 +1,123 @@
+<%- include("navbar.ejs") %>
+<link rel="stylesheet" href="style/Contact.css" />
+<link rel="stylesheet" href="style/index.css" />
+
+<div class="container contact-slide">
+  <div class="row contact-slide-text">
+    <div class="col-md-12">
+      <h3>Join With Us</h3>
+      <p class="mt-3">
+        Welcome to our contact page! We value your feedback, inquiries, and
+        suggestions. Whether you have a question about our products or services,
+        need technical support, or want to share your thoughts with us, we're
+        here to listen.
+      </p>
+    </div>
+  </div>
+  <div class="row contact-slide-icon">
+    <div class="col-md-3">
+      <ion-icon name="location-outline"></ion-icon>
+      <p>Address: 198 West 21th Street, Suite 721 New York NY 10016</p>
+    </div>
+    <div class="col-md-3">
+      <ion-icon name="mail-outline"></ion-icon>
+      <p>Phone: + 1235 2355 98</p>
+    </div>
+    <div class="col-md-3">
+      <ion-icon name="call-outline"></ion-icon>
+      <p>Email: info@yoursite.com</p>
+    </div>
+    <div class="col-md-3">
+      <ion-icon name="earth-outline"></ion-icon>
+      <p>Website yoursite.com</p>
+    </div>
+  </div>
+</div>
+
+<div class="container contact-slide-2">
+  <div class="row">
+    <div class="col-md-7 contact-input">
+      <form action="POST">
+        <div class="row p-2">
+          <div class="col-md-12">
+            <h2>Contact Us</h2>
+          </div>
+          <div class="col-md-6">
+            <div class="input-container">
+              <label htmlFor="">Full Name</label>
+              <input
+                type="text"
+                name="text"
+                class="input"
+                placeholder="Enter text"
+              />
+              <div class="highlight"></div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-container">
+              <label htmlFor="">Email</label>
+              <input
+                type="email"
+                name="text"
+                class="input"
+                placeholder="Enter text"
+              />
+              <div class="highlight"></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="input-container">
+              <label htmlFor="">Phone Number</label>
+              <input
+                type="number"
+                name="text"
+                class="input"
+                placeholder="Enter text"
+              />
+              <div class="highlight"></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="input-container">
+              <label htmlFor="">Address</label>
+              <input
+                type="text"
+                name="text"
+                class="input"
+                placeholder="Enter text"
+              />
+              <div class="highlight"></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="input-container">
+              <label htmlFor="">Full Name</label>
+              <textarea
+                type="text"
+                name="text"
+                class="input"
+                placeholder="Enter text"
+              ></textarea>
+              <div class="highlight"></div>
+            </div>
+          </div>
+          <div class="col-md-12 p-2">
+            <button
+              type="submit"
+              value="submit"
+              class="btn btn-primary rounded-pill p-2"
+            >
+              Send Message
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-5 bg-dark m-0 p-0">
+      <img src="uploads/contact-2.jpg" alt="" class="w-100" />
+    </div>
+  </div>
+</div>
+
+<%- include("footer.ejs") %>

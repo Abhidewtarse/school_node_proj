@@ -1,0 +1,431 @@
+.Application1 {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.Application-heading img {
+  margin-top: -70px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  filter: brightness(50%);
+  z-index: 999;
+}
+
+.Application-heading h1 {
+  font-weight: 900;
+  max-width: 80%;
+  font-size: 75px;
+  font-style: italic;
+  position: relative;
+  top: -680px;
+  left: 100px;
+  text-align: center;
+  z-index: 1;
+  color: rgba(251, 250, 250, 0.7);
+}
+
+.Application-heading span {
+  position: relative;
+  top: -680px;
+  color: white;
+  font-size: 13px;
+  left: 460px;
+}
+
+.Application-heading button {
+  text-decoration: none;
+  border: none;
+  z-index: 1;
+  left: 460px;
+  font-size: 13px;
+  outline: none;
+  background-color: transparent;
+  color: #fca311;
+  position: relative;
+  top: -680px;
+}
+
+/* slide2 begins */
+.Application2 {
+  height: 90vh;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  padding: 0px 50px 0px 50px;
+  font-family: roboto slab;
+}
+
+.Application2-left {
+  height: auto;
+  width: 50%;
+  padding-top: 70px;
+  padding-left: 50px;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.Application2-right {
+  height: 550px;
+  width: 50%;
+  padding: 30px 30px 0px 30px;
+}
+
+.Application2-right-desc {
+  width: 450px;
+  height: auto;
+  line-height: 25px;
+  font-size: 13px;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.Application2-right-desc h4 {
+  font-weight: 600;
+  font-size: 22px;
+  margin-left: -20px;
+  padding: 5px;
+}
+
+.Application2-right-desc li {
+  margin-bottom: -15px;
+}
+
+/* slide3 begins */
+.Application3 {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  background-color: #fff;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.Application3-heading h1 {
+  font-size: 30px;
+  font-weight: 900;
+  padding-left: 20px;
+
+}
+
+.Application3-subheading {
+  font-family: sans-serif;
+  padding: 20px 0px 20px 40px;
+}
+
+.Application3-subheading h3 {
+  font-size: 23px;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Application3-subheading p {
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.red {
+  color: rgba(252, 32, 32, 0.7);
+  font-size: 15px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.Date label {
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+.Date input {
+  cursor: pointer;
+  margin-top: 10px;
+  max-width: 600px !;
+  max-height: 32px;
+  outline: none;
+  border: 1px solid rgb(240, 58, 58);
+  background-color: transparent;
+  padding-right: 15px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Name label {
+  font-size: 19px;
+  margin-top: 20px;
+}
+
+.Name input {
+  cursor: pointer;
+  border: 1px solid gray;
+  max-width: 350px;
+  max-height: 35px;
+  outline: none;
+  background-color: transparent;
+  font-size: 13px;
+}
+
+.Grade-label {
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.radio input {
+  cursor: pointer;
+  position: relative;
+  bottom: -10px;
+  left: 20px;
+  max-width: 10px;
+  align-items: start;
+  justify-content: start;
+}
+
+.radio {
+  margin-bottom: -25px;
+  margin-top: -20px;
+}
+
+.radio label {
+  position: relative;
+  left: 15px;
+  font-weight: 400;
+  bottom: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.Campus label {
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.City input {
+  cursor: pointer;
+  max-width: 10px;
+  position: relative;
+  align-items: start;
+  justify-content: start;
+  left: 20px;
+  bottom: -10px;
+}
+
+.City label {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  left: 20px;
+  top: -5px;
+}
+
+.City {
+  margin-bottom: -20px;
+  margin-top: -10px;
+}
+
+.Handicapped {
+  margin-top: 45px;
+  margin-bottom: -20px;
+}
+
+.Handicapped input {
+  cursor: pointer;
+  max-width: 10px;
+  position: relative;
+  left: 20px;
+  bottom: -20px;
+}
+
+.Yes {
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.No label {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  left: 25px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.Yes label {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  left: 25px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.form2-subheading {
+  margin-top: 25px;
+}
+
+.form2-subheading h2 {
+  font-size: 29px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.form2-subheading p {
+  font-size: 15px;
+  max-width: 90%;
+  font-family: 'Segoe UI';
+}
+
+.form-row2-form h6 {
+  font-size: 15px;
+  margin: 10px 10px 0px 10px;
+  font-weight: 700;
+}
+
+.Parent label {
+  font-weight: 300;
+  font-size: 12px;
+  font-family: 'roboto slab';
+  align-items: start;
+  padding-right: 415px;
+  justify-content: space-between;
+}
+
+.Parent input {
+  max-width: 400px;
+  margin-right: 50px;
+  background-color: transparent;
+  border: 1px solid rgba(149, 140, 140, 0.5);
+  outline: none;
+}
+
+.form3-subheading {
+  margin-top: 40px;
+}
+
+.form3-subheading h1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.form3-subheading p {
+  font-size: 14px;
+  font-family: 'Segoe UI';
+}
+
+.form-row3-address h5 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.form-row3-address p {
+  font-size: 13px;
+  font-family: 'Segoe UI';
+}
+
+.StreetAddress label {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'roboto slab';
+  align-items: start;
+  padding-right: 750px;
+}
+
+.StreetAddress input {
+  max-width: 450px;
+  border: 1px solid rgba(146, 146, 146, 0.6);
+  outline: none;
+  background-color: transparent;
+}
+
+.form3-City label {
+  margin-top: 25px;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'roboto slab';
+  align-items: start;
+  padding-right: 450px;
+}
+
+.form3-City input {
+  max-width: 450px;
+  margin-right: 20px;
+  border: 1px solid rgba(146, 146, 146, 0.6);
+  outline: none;
+  background-color: transparent;
+}
+
+.Zipcode label {
+  margin-top: 25px;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'roboto slab';
+  align-items: start;
+  padding-right: 750px;
+}
+
+.Zipcode input {
+  max-width: 450px;
+  border: 1px solid rgba(146, 146, 146, 0.6);
+  outline: none;
+  background-color: transparent;
+}
+
+.CurrSchool h6 {
+  padding-left: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.CurrSchool input {
+  max-width: 80%;
+  border: 1px solid rgba(146, 146, 146, 0.6);
+  outline: none;
+  background-color: transparent;
+
+}
+
+.CurrSchoolAddress h6 {
+  padding-left: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.form-end-para p {
+  font-size: 15px;
+  max-width: 90%;
+  margin-top: 25px;
+  font-family: 'Segoe UI';
+}
+
+.Apply-form-submit {
+  margin-top: 20px;
+  padding: 7px 20px 7px 20px;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: #fca311;
+}
+
+.Apply-form-submit:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+
+@media (max-width:425px) {}
